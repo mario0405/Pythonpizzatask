@@ -14,13 +14,16 @@ def main():
             xy
 
         elif choice == "2": #Pizzen mit xy Topping
-            xy
+            topping = input("Enter the topping to search for: ")
         
         elif choice == "3": #Pizzen mit xy Namen
-            xy
+            name = input("Enter the name of the pizza: ")
 
         elif choice == "4": #Preis mit Rabatt berechnen
-            xy
+            name = input("Enter the name of the pizza: ")
 
         elif choice == "5": #Programm verlassen
-            xy
+            print("Exiting...")
+            break
+        else: 
+            print("please try again. We couldnt find your choice")
