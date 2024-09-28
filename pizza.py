@@ -5,8 +5,7 @@ class Pizza:
     self.price = price
 
   def get_details(self):
-  
-
+    return xy
 
   def has_topping(self, topping):
     return topping in self.toppings
