@@ -1,4 +1,4 @@
-# Pizza Ordering System
+# Pizza Ordering System - Mario Lenzin
 
 Dieses Python-Projekt implementiert ein interaktives Programm zur Verwaltung einer Pizza-Datenbank. Das Programm ermöglicht folgende Funktionen:
 
