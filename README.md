@@ -1,4 +1,4 @@
-# Pizza Ordering System - Mario Lenzin
+# Pizza Ordering System - FS24 Anwendungsentwicklung mit Python (BSc BAI) Mario Lenzin
 
 Dieses Python-Projekt implementiert ein interaktives Programm zur Verwaltung einer Pizza-Datenbank. Das Programm ermöglicht folgende Funktionen:
 
