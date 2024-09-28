@@ -5,7 +5,8 @@ class Pizza:
     self.price = price
 
   def get_details(self):
-    return xy
-
+    return self.name + ": " + ", ".join(self.toppings) + " - $" + str(round(self.price, 2)) 
+    #noch vereinfachen...
+  
   def has_topping(self, topping):
     return topping in self.toppings
