@@ -8,8 +8,13 @@ pizzas = [                                   #4 Bsp Pizzen mit deren Toppings un
 ]
 
 def list_all_pizzas():
+    return [pizza.get_details() for pizza in pizzas]
 
 def find_pizzas_with_topping():
+    return [pizza.get_details() for pizza in pizzas if pizza.has_topping(topping)]
 
 def find_pizza_by_name():
     for pizza in pizzas:
+        if pizza.name.lower() == name.lower():
+            return pizza
+    return None
