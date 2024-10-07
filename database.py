@@ -1,6 +1,6 @@
 from pizza import Pizza
 
-pizzas = [                                   #4 Bsp Pizzen mit deren Toppings und Preis l alles in einer sogenannten mock database
+pizzas = [
     Pizza("Margherita", ["tomato", "mozzarella"], 8.50),
     Pizza("Pepperoni", ["tomato", "mozzarella", "pepperoni"], 9.50),
     Pizza("Hawaiian", ["ham", "pineapple"], 10.00),
@@ -10,10 +10,12 @@ pizzas = [                                   #4 Bsp Pizzen mit deren Toppings un
 def list_all_pizzas():
     return [pizza.get_details() for pizza in pizzas]
 
-def find_pizzas_with_topping():
+# Füge das Argument 'topping' hinzu
+def find_pizzas_with_topping(topping):
     return [pizza.get_details() for pizza in pizzas if pizza.has_topping(topping)]
 
-def find_pizza_by_name():
+# Füge das Argument 'name' hinzu
+def find_pizza_by_name(name):
     for pizza in pizzas:
         if pizza.name.lower() == name.lower():
             return pizza
